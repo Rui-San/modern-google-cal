@@ -11,7 +11,7 @@
 
 In order to install this theme, you need to install [Stylus extension](<https://github.com/openstyles/stylus>). You can install this style directly with the buton bellow:
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat)](calendar.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat)](https://userstyles.world/api/style/21900.user.css)
 
 ## To-do
 

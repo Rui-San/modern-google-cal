@@ -1,8 +1,6 @@
- &nbsp;
-<div style="text-align: center;">
-    <img src="images/modern-calender-ico.png" alt="drawing" width="100" />
-</div>
- &nbsp;
+<p align="center">
+  <img src="images/modern-calender-ico.png" alt="drawing" width="100" />
+</p>
 <h1 align="center">Modern Google Calendar</h1>
 
 <p align="center">Description and images TBD</p>

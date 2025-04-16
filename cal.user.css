@@ -4,16 +4,12 @@
 @namespace      github.com/Rui-San/better-google-cal
 @homepageURL    https://github.com/Rui-San/modern-google-cal
 @updateURL      https://userstyles.world/api/style/21900.user.css
-@version        1.1.0
+@version        1.2.0
 @author         RuiSan (https://github.com/Rui-San)
 @license        MIT
 @preprocessor stylus
 ==/UserStyle== */
 @-moz-document domain("calendar.google.com") {
-
-    body {
-        --gm3-sys-color-surface: #1e1f20 !important;
-    }
 
     .GTG3wb,
     .vEJ0bc {
@@ -28,19 +24,19 @@
         content: '';
         position: absolute;
         inset: 0;
-        background-color: inherit;
-        filter: brightness(44%) contrast(90%);
-        opacity: 1;
+        background-color: var(--gm3-sys-color-background);
+        filter: contrast(90%);
+        opacity: 0.6;
     }
 
     .GTG3wb *,
     .KF4T6b * {
         z-index: 2;
-        color: white !important;
+        color: var(--gm3-sys-color-on-surface) !important;
     }
 
     .GTG3wb::before,
-    .KF4T6b::before {
+    .QGRmIf::before {
         z-index: 2;
         content: '';
         position: absolute;
@@ -86,6 +82,12 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    
+    .KF4T6b{
+        height: 100% !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
     }
     
 }

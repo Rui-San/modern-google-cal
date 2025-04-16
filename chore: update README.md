@@ -13,5 +13,6 @@ In order to install this theme, you need to install [Stylus extension](<https://
 
 ## To-do
 
+- ADD SUPPORT FOR LIGHT THEME
 - Customization options
 - Toggable google calendar features
